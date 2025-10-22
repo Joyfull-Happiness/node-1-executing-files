@@ -14,5 +14,8 @@ const inputString = "Javascript Rocks!";
 let reversedString = "";
 
 // Your code here
-
+for (const letter of inputString) {
+  // each new letter in inputString gets added to the front of reversedString reversing the string
+  reversedString = letter + reversedString;
+}
 console.log(reversedString);
